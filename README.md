@@ -1,13 +1,43 @@
-# React + Vite
+# Robofriends Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Status](https://img.shields.io/badge/Status-Learning_Project-blue?style=for-the-badge)
 
-Currently, two official plugins are available:
+A React project **migrated from Create React App to Vite**, showcasing modern frontend practices like reusable components, container patterns, dynamic search & scroll functionality, and API integration. User data is pulled from [JSONPlaceholder](https://jsonplaceholder.typicode.com/users) and displayed with fun, auto-generated RoboHash avatars.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- ⚛️ Built with **React + Vite** for fast development and builds  
+- 🧩 **Component-based architecture** with containers and reusable UI elements  
+- 🔍 **Search bar** to filter robot friends by name  
+- 📜 **Scroll component** for clean UI and better user experience  
+- 🌐 **API integration** with JSONPlaceholder users  
+- 🤖 **Unique cat-bot avatars** via RoboHash  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# robofriends-vite
+---
+
+## 🛠️ Tech Stack
+- [React](https://react.dev/)  
+- [Vite](https://vitejs.dev/)  
+- [RoboHash](https://robohash.org/)  
+- [JSONPlaceholder](https://jsonplaceholder.typicode.com/)  
+
+---
+
+## 📦 Installation & Setup
+
+```bash
+# Clone the repo
+git clone https://github.com/katiesolokhina/robofriends-vite.git
+
+# Move into the project directory
+cd robofriends-vite
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
